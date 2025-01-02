@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        /* Ensure uniform image sizes in the gallery */
+        .gallery .image img {
+            width: 100%; /* Image stretches to fill the container width */
+            height: 200px; /* Fixed height for uniformity */
+            object-fit: cover; /* Maintain aspect ratio, crop overflow */
+            display: block; /* Avoid inline-block spacing issues */
+        }
+    </style>
 </head>
 <body class="is-preload">
 
